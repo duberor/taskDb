@@ -4,10 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": "20.x"
+    "start": "node server.js",
+    "postinstall": "npm install"
   },
   "keywords": [],
   "author": "",
